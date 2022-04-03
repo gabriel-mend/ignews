@@ -14,7 +14,7 @@ export function SubscribeButton () {
       return
     }
 
-    if(session?.activeSubscription) {
+    if(session) {
       router.push('/posts')
       return
     }
